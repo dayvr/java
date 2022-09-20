@@ -18,6 +18,7 @@ public class User {
    }
    
    public static void main(String args[]) {
-      new User("Day");
+      // Using the first constructor to instantiate user1 object.
+      User user1 = new User("Day");
    }
 }
